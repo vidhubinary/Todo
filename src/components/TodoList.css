@@ -1,0 +1,39 @@
+.todoContaioner {
+  background-color: blueviolet;
+  height: 600px;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px gray;
+}
+
+.todoHeader{
+background-color: black;
+color: wheat;
+padding: 20px;
+border-radius: 25px 25px 0 0;
+font-weight: 600;
+text-align: center;
+font-size: 25px;
+opacity: 0.7;
+}
+
+.listContainer {
+    padding: 0 30px 15px 0;
+    width: 100%;
+}
+
+.listContainer > li {
+ display: flex;
+ width: 100%;
+}
+
+.holdText {
+    text-decoration: line-through;
+    font-size: italic;
+    color: rgb(104, 104, 104);
+}
+
+.listBtn {
+    display: flex;
+    float: right;
+    margin-right: 15px;
+}
